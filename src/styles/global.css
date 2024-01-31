@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html,
+  body {
+    @apply m-0 min-h-dvh text-gray-800;
+  }
+
+  #root {
+    @apply h-full;
+  }
+}
